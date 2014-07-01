@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @trail_mix.name %>
+</p>
+
+<p>
+  <strong>Ingredients:</strong>
+  <%= @trail_mix.ingredients %>
+</p>
+
+<%= link_to 'Edit', edit_trail_mix_path(@trail_mix) %> |
+<%= link_to 'Back', trail_mixes_path %>

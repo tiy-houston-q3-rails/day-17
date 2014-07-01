@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @breakfast.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @breakfast.description %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= image_tag @breakfast.image_url %>
+</p>
+
+<p>
+  <strong>Date Tried:</strong>
+  <%= @breakfast.date_tried %>
+</p>
+
+<%= link_to 'Edit', edit_breakfast_path(@breakfast) %> |
+<%= link_to 'Back', breakfasts_path %>

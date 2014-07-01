@@ -1,0 +1,2 @@
+module TrailMixesHelper
+end
